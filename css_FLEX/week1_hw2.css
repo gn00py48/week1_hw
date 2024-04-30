@@ -1,42 +1,45 @@
 body {
   margin: 0;
-  background-color: #fff; /* 배경을 검정색으로 설정 */
-  color: #fff; /* 글자 색을 흰색으로 설정 */
+  background-color: #fff; 
+  color: #fff; 
   display : flex;
   flex-direction: column;
-  align-items: center; /* 가운데 정렬 */
+  align-items: center; 
 }
 
 .instagram_post {
-  background-color: #000; /* 배경을 검정색으로 설정 */
+  background-color: #000; 
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
   height: 100%;
-  max-width: 600px; /* 포스트의 최대 너비를 설정합니다 */
+  max-width: 600px; 
 }
 
 .header {
   display: flex;
   width: 100%;
-  align-items: center; /* 요소들 사이에 공간을 균등하게 분배합니다 */
-  padding: 5px;
+  align-items: center; 
+  padding: 10px;
   font-size: 10px;
+  justify-content: space-between;
 }
 
-.profile-pic {
+.user {
   margin-left:10px;
+  display: flex;
+  flex-direction: row;
 }
 .profile{
-  width: 40px; /* 적당한 프로필 사진 크기 */
-  border-radius: 50%; /* 원형 프로필 사진 */
+  width: 40px; 
+  border-radius: 50%; 
 }
 
 .user-info {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* 세로축 가운데 정렬 */
+  justify-content: center; 
   margin-left:10px;
 }
 
@@ -45,7 +48,8 @@ body {
 }
 
 .options{
-  background-color: aqua;/* 얘가 안보여요 ㅠㅠㅠㅠㅠ*/
+  justify-content: flex-end;
+  margin-right: 10px;
 }
 
 .post-image {
@@ -55,40 +59,40 @@ body {
 
 .footer {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .icons{
   display: flex;
-  align-items: center; /* 요소들 사이에 공간을 균등하게 분배합니다 */
+  align-items: center; 
   justify-content: space-between;
   padding: 10px;
 }
 
 .reactions i {
-  margin-left: 10px; /* 아이콘 간 여백 설정 */
+  margin-left: 10px; 
 }
 .bookmark{
   margin-right: 10px;
 }
 .likes {
-  margin-top: 10px; /* 좋아요 수 위쪽 여백 설정 */
-  margin-left: 20px; /* 아이콘 간 여백 설정 */
+  margin-top: 10px; 
+  margin-left: 20px; 
   font-size: 10px;
 }
 
 .description {
-  margin-top: 10px; /* 설명 위쪽 여백 설정 */
-  margin-left: 20px; /* 아이콘 간 여백 설정 */
+  margin-top: 10px; 
+  margin-left: 20px; 
   font-size: 12px;
 }
 
 .date {
-  margin-top: 10px; /* 날짜 위쪽 여백 설정 */
+  margin-top: 10px; 
   font-size: 10px;
-  color: #999; /* 날짜 색상 설정 */
-  margin-left: 20px; /* 아이콘 간 여백 설정 */
+  color: #999; 
+  margin-left: 20px; 
 }
 
